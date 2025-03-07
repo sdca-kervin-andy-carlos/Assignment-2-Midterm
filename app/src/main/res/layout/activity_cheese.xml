@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/small"
-                android:text="99.9"
+                android:text="₱400"
                 android:textSize="20sp"
 
                 android:textStyle="bold" />
@@ -90,7 +90,7 @@
             <Button
                 android:id="@+id/btnBrie"
                 android:layout_width="wrap_content"
-                android:layout_height="51dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/black"
                 android:fontFamily="@font/small"
@@ -102,6 +102,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:orientation="vertical">
 
             <ImageView
@@ -127,7 +128,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/small"
-                android:text="99.9"
+                android:text="₱500"
                 android:textSize="20sp"
 
                 android:textStyle="bold" />
@@ -180,7 +181,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/small"
-                android:text="99.9"
+                android:text="₱350"
                 android:textSize="20sp"
 
                 android:textStyle="bold" />
@@ -200,6 +201,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:orientation="vertical">
 
             <ImageView
@@ -225,7 +227,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/small"
-                android:text="99.9"
+                android:text="₱450"
                 android:textSize="20sp"
 
                 android:textStyle="bold" />

@@ -11,9 +11,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btn_reserve;
+    ArrayList<String> myOrder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +26,18 @@ public class MainActivity extends AppCompatActivity {
 
             btn_reserve = findViewById(R.id.btnReserve);
 
+        Intent intent = getIntent();
+        myOrder = intent.getStringArrayListExtra("myOrder");
+
+        if (myOrder == null) {
+            myOrder = new ArrayList<>();
+        }
+
             btn_reserve.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent i = new Intent(MainActivity.this, MainActivity2.class);
+                    i.putStringArrayListExtra("myOrder", myOrder);
                     startActivity(i);
                 }
         });
