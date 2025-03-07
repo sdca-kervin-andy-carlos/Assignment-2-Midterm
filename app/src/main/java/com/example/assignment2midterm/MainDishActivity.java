@@ -37,7 +37,7 @@ public class MainDishActivity extends AppCompatActivity {
         Intent intent = getIntent();
         myOrder = intent.getStringArrayListExtra("myOrder");
 
-        if (myOrder == null) { // If first category, initialize list
+        if (myOrder == null) {
             myOrder = new ArrayList<>();
         }
 

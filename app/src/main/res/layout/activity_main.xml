@@ -28,7 +28,7 @@
         android:fontFamily="@font/fancy"
         android:textSize="30sp"
         android:textColor="#a17f18"
-        android:text="Ecquis et inoubliable" />
+        android:text="Exquis et inoubliable" />
 
     <Button
         android:id="@+id/btnReserve"

@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/small"
-                android:text="Boeuf Borguigon"
+                android:text="Boeuf Bourguignon"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
